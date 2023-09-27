@@ -1,0 +1,32 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-macos10.15 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Helper
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+public enum CommandLogger {
+  public static var commands: [Helper.Command]
+}
+public struct Command : Swift.Identifiable {
+  public enum CommunicationType {
+    case send
+    case sendSecureChannel
+    case response
+    case responseSecureChannel
+    case description
+    public static func == (a: Helper.Command.CommunicationType, b: Helper.Command.CommunicationType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var id: Foundation.UUID
+  public var type: Helper.Command.CommunicationType
+  public var message: Swift.String
+  public init(message: Swift.String, type: Helper.Command.CommunicationType)
+  public typealias ID = Foundation.UUID
+}
+extension Helper.Command.CommunicationType : Swift.Equatable {}
+extension Helper.Command.CommunicationType : Swift.Hashable {}

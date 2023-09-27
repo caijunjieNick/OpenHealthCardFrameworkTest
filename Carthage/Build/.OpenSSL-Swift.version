@@ -1,0 +1,34 @@
+{
+  "Mac" : [
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "20b909fd17cda3d2539ccec115b5b9dbecd65f0ef82490c56c18b55ee3aeb9d9",
+      "name" : "OpenSSL",
+      "container" : "OpenSSL.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "4.1.0",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "4a9e15fbf7ce8fd49638707f0d2d1ace5fa738b3ce2ba5ae76e5b06ff362ceb9",
+      "name" : "OpenSSL",
+      "container" : "OpenSSL.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "6076e4e51b882c0788a3bc13a5a1315991e92f5536e4a410c2081181c9c42fa8",
+      "name" : "OpenSSL",
+      "container" : "OpenSSL.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    }
+  ]
+}

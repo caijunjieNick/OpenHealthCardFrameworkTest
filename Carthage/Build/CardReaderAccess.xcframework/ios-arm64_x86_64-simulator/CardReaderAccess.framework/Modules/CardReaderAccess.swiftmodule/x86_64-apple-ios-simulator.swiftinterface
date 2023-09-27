@@ -1,0 +1,29 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CardReaderAccess
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CardReaderProviderApi
+import Foundation
+import GemCommonsKit
+import Swift
+import _Concurrency
+import _StringProcessing
+public protocol CardReaderControllerManagerType : AnyObject {
+  var cardReaderControllers: [CardReaderProviderApi.CardReaderControllerType] { get }
+  var cardReaderProviderDescriptors: [CardReaderProviderApi.ProviderDescriptorType] { get }
+}
+@_hasMissingDesignatedInitializers public class CardReaderControllerManager : CardReaderAccess.CardReaderControllerManagerType {
+  public static let shared: CardReaderAccess.CardReaderControllerManagerType
+  public var cardReaderProviderDescriptors: [CardReaderProviderApi.ProviderDescriptorType] {
+    get
+  }
+  public var cardReaderControllers: [CardReaderProviderApi.CardReaderControllerType] {
+    get
+  }
+  @objc deinit
+}
+extension CardReaderAccess.CardReaderControllerManagerType {
+  public var cardReaderProviderNames: [Swift.String] {
+    get
+  }
+}

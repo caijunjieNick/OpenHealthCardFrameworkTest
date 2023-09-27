@@ -1,0 +1,4 @@
+framework module ASN1Kit {
+  header "ASN1Kit-Swift.h"
+  requires objc
+}

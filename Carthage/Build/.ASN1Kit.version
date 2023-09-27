@@ -1,0 +1,34 @@
+{
+  "Mac" : [
+    {
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
+      "hash" : "0e23a0484d626670859b988072b7f6d604995521c405198534e3ac9fb468ff45",
+      "name" : "ASN1Kit",
+      "container" : "ASN1Kit.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.2.1",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
+      "hash" : "5b546eb15ed83e1d39b7e91e2944b57b57e0d192c1caca6baa9577843b10418e",
+      "name" : "ASN1Kit",
+      "container" : "ASN1Kit.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
+      "hash" : "929a66b8ca438217598b8d8638179b216a9286d348131a6cae59015461883a4c",
+      "name" : "ASN1Kit",
+      "container" : "ASN1Kit.xcframework",
+      "identifier" : "ios-arm64"
+    }
+  ]
+}

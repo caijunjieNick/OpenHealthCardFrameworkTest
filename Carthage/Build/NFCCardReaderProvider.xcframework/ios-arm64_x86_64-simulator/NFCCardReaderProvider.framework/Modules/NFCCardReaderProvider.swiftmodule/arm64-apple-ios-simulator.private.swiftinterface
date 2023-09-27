@@ -1,0 +1,57 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NFCCardReaderProvider
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CardReaderProviderApi
+import Combine
+import CoreNFC
+import DataKit
+import Foundation
+import GemCommonsKit
+import HealthCardAccess
+import Helper
+import Swift
+import _Concurrency
+import _StringProcessing
+@frozen public enum CoreNFCError : Swift.Error {
+  case tagConnectionLost(CoreNFC.NFCReaderError)
+  case sessionTimeout(CoreNFC.NFCReaderError)
+  case sessionInvalidated(CoreNFC.NFCReaderError)
+  case userCanceled(CoreNFC.NFCReaderError)
+  case unsupportedFeature(CoreNFC.NFCReaderError)
+  case other(CoreNFC.NFCReaderError)
+  case unknown(Swift.Error)
+}
+public enum NFCCardError : Swift.Error {
+  case nfcTag(error: NFCCardReaderProvider.CoreNFCError)
+  case noCardPresent
+  case transferException(name: Swift.String)
+  case sendTimeout
+}
+public protocol NFCCardSession {
+  func updateAlert(message: Swift.String)
+  func invalidateSession(with error: Swift.String?)
+  var card: CardReaderProviderApi.CardType { get }
+}
+extension CoreNFC.NFCTagReaderSession {
+  public enum Error : Swift.Error {
+    case couldNotInitializeSession
+    case unsupportedTag
+    case nfcTag(error: NFCCardReaderProvider.CoreNFCError)
+  }
+  public struct Publisher : Combine.Publisher {
+    public typealias Output = NFCCardReaderProvider.NFCCardSession
+    public typealias Failure = CoreNFC.NFCTagReaderSession.Error
+    public func receive<S>(subscriber: S) where S : Combine.Subscriber, S.Failure == CoreNFC.NFCTagReaderSession.Error, S.Input == NFCCardReaderProvider.NFCCardSession
+  }
+  public struct Messages {
+    public let discoveryMessage: Swift.String
+    public let connectMessage: Swift.String
+    public let noCardMessage: Swift.String
+    public let multipleCardsMessage: Swift.String
+    public let unsupportedCardMessage: Swift.String
+    public let connectionErrorMessage: Swift.String
+    public init(discoveryMessage: Swift.String, connectMessage: Swift.String, noCardMessage: Swift.String, multipleCardsMessage: Swift.String, unsupportedCardMessage: Swift.String, connectionErrorMessage: Swift.String)
+  }
+  public static func publisher(for pollingOption: CoreNFC.NFCTagReaderSession.PollingOption = .iso14443, on queue: Dispatch.DispatchQueue = .global(qos: .userInitiated), messages: CoreNFC.NFCTagReaderSession.Messages) -> CoreNFC.NFCTagReaderSession.Publisher
+}

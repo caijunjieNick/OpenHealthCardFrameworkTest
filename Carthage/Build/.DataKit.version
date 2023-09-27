@@ -1,0 +1,34 @@
+{
+  "Mac" : [
+    {
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
+      "hash" : "40db4aaf279e95c32aaa862a0e7910c8f6220972b56df47a8f88d42faccd2b5a",
+      "name" : "DataKit",
+      "container" : "DataKit.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.1.0",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
+      "hash" : "aea0753c5790ea30013a9160b6d00238f5fc16a1796d785f6b284ed943ae9b14",
+      "name" : "DataKit",
+      "container" : "DataKit.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
+      "hash" : "b7f3f175cd8b7b170165f95584186eef95cf36634e394cd2085c9dcdc7dd72f8",
+      "name" : "DataKit",
+      "container" : "DataKit.xcframework",
+      "identifier" : "ios-arm64"
+    }
+  ]
+}

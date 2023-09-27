@@ -1,0 +1,132 @@
+{
+  "Mac" : [
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "ae07403610026084f94931a4eedac7a53d61c9d4b9b226e0d48654313b0f01ca",
+      "name" : "CardReaderAccess",
+      "container" : "CardReaderAccess.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "1bb3dbf7815e192048535231b2b126830f4480f2070c46d01deb04ad7576f725",
+      "name" : "CardReaderProviderApi",
+      "container" : "CardReaderProviderApi.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "26079e1c6be60140fa27d0383655cd6f280a17232ada4d68ab8457cf1bdd9988",
+      "name" : "HealthCardAccess",
+      "container" : "HealthCardAccess.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "feac1a6608a9f0c7cb6b647a4df09e42110c17fbf74f26c2525c8e2fddd156a6",
+      "name" : "HealthCardControl",
+      "container" : "HealthCardControl.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "673626a169a1ca06fd656b2abe3ea7b6936e81136db042340e8b2a9ea93174ad",
+      "name" : "Helper",
+      "container" : "Helper.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "5.2.1",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "2f3ec5dbe3307bd06d7c3fba69934d88168b83f85ea5036853c0cb076e7f1d2c",
+      "name" : "CardReaderAccess",
+      "container" : "CardReaderAccess.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "0dbbc01163d6291864546e2f2894fa26cf17210058bf9d1e4d6b13b58093db5c",
+      "name" : "CardReaderAccess",
+      "container" : "CardReaderAccess.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "b1f60e2b57b537d2da99b8ba9960434a1a5cd5fe5dfc18fccf7fd4cd19d3655c",
+      "name" : "CardReaderProviderApi",
+      "container" : "CardReaderProviderApi.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "739bb0b8761b4731d8c0296750cd0240ae58b8744cd888a835313af645fa9523",
+      "name" : "CardReaderProviderApi",
+      "container" : "CardReaderProviderApi.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "fdaeb41b28ba72b42afaaef4f40c75b8e217c569de4328959d25519a814730e8",
+      "name" : "HealthCardAccess",
+      "container" : "HealthCardAccess.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "8f697c667a2736267fa6284ca1a1e18050330bdf7d4faf45058278ff5be2d5c4",
+      "name" : "HealthCardAccess",
+      "container" : "HealthCardAccess.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "f0fcfacf1521a7c40a1ff91f2df9738dd793aa453d717b6c45fc85b791695205",
+      "name" : "HealthCardControl",
+      "container" : "HealthCardControl.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "9724e74f7e9464921bbcdf423d7ff8b0557a158f8eae898ae80d9611d362bf5c",
+      "name" : "HealthCardControl",
+      "container" : "HealthCardControl.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "fa22765448cf917737521eb2de78b6875a68a24e47735592522b81e0f2fea1d1",
+      "name" : "Helper",
+      "container" : "Helper.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "488e5fc18be0ef9d40b49b949d6edd780ff87ad1338dd8ea94a3db47481e6502",
+      "name" : "Helper",
+      "container" : "Helper.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "96c6ef4e831ddb9570172acd2f0e2c3df78971dd71d1d5ccdba7f16f64a13b8d",
+      "name" : "NFCCardReaderProvider",
+      "container" : "NFCCardReaderProvider.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "df2e47e2966100a6b56eaf7b2818af966427268e9616d503c7df43d1f9b0b65d",
+      "name" : "NFCCardReaderProvider",
+      "container" : "NFCCardReaderProvider.xcframework",
+      "identifier" : "ios-arm64"
+    }
+  ]
+}

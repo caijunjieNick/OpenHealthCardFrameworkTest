@@ -1,0 +1,244 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HealthCardControl
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import ASN1Kit
+import CardReaderProviderApi
+import Combine
+import CommonCrypto
+import Foundation
+import GemCommonsKit
+import HealthCardAccess
+import Helper
+import OpenSSL
+import Security
+import Swift
+import _Concurrency
+import _StringProcessing
+public enum CardAid : HealthCardAccess.ApplicationIdentifier {
+  case egk
+  case hba
+  case smcb
+  public func hash(into hasher: inout Swift.Hasher)
+  public init?(rawValue: HealthCardAccess.ApplicationIdentifier)
+  public typealias RawValue = HealthCardAccess.ApplicationIdentifier
+  public var hashValue: Swift.Int {
+    get
+  }
+  public var rawValue: HealthCardAccess.ApplicationIdentifier {
+    get
+  }
+}
+extension CardReaderProviderApi.CardChannelType {
+  public func readCardType(cardAid: HealthCardControl.CardAid? = nil, writeTimeout: Foundation.TimeInterval = 30.0, readTimeout: Foundation.TimeInterval = 30.0) -> Combine.AnyPublisher<HealthCardAccess.HealthCardPropertyType, Swift.Error>
+}
+extension CardReaderProviderApi.CardType {
+  public func openSecureSession(can: HealthCardAccess.CAN, writeTimeout: Foundation.TimeInterval = 30, readTimeout: Foundation.TimeInterval = 30) -> Combine.AnyPublisher<HealthCardAccess.HealthCardType, Swift.Error>
+  public func openSecureSession(can: Swift.String, writeTimeout: Foundation.TimeInterval = 30, readTimeout: Foundation.TimeInterval = 30) -> Combine.AnyPublisher<HealthCardAccess.HealthCardType, Swift.Error>
+}
+extension HealthCardAccess.HealthCard {
+  public enum Error : Swift.Error {
+    case operational
+    case unexpectedResponse(actual: HealthCardAccess.ResponseStatus, expected: HealthCardAccess.ResponseStatus)
+    case unknownCardType(aid: HealthCardAccess.ApplicationIdentifier?)
+    case illegalGeneration(version: HealthCardAccess.CardVersion2)
+    case unsupportedCardType
+  }
+}
+public typealias AuthenticationResult = (certificate: HealthCardAccess.CertificateInfo, signature: HealthCardAccess.Signature)
+extension HealthCardAccess.HealthCardType {
+  public func authenticate(challenge: Foundation.Data) -> Combine.AnyPublisher<HealthCardControl.AuthenticationResult, Swift.Error>
+}
+@frozen public enum ChangeReferenceDataResponse : Swift.Equatable {
+  case success
+  case wrongSecretWarning(retryCount: Swift.Int)
+  case securityStatusNotSatisfied
+  case memoryFailure
+  case commandBlocked
+  case wrongPasswordLength
+  case passwordNotFound
+  case unknownFailure
+  public static func == (a: HealthCardControl.ChangeReferenceDataResponse, b: HealthCardControl.ChangeReferenceDataResponse) -> Swift.Bool
+}
+public enum ChangeReferenceDataAffectedPassword {
+  case mrPinHomeNoDfSpecific
+  public static func == (a: HealthCardControl.ChangeReferenceDataAffectedPassword, b: HealthCardControl.ChangeReferenceDataAffectedPassword) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension HealthCardAccess.HealthCardType {
+  public func changeReferenceDataSetNewPin(old: HealthCardAccess.Format2Pin, new: HealthCardAccess.Format2Pin, type: HealthCardAccess.EgkFileSystem.Pin = EgkFileSystem.Pin.mrpinHome, dfSpecific: Swift.Bool = false) -> Combine.AnyPublisher<HealthCardControl.ChangeReferenceDataResponse, Swift.Error>
+  public func changeReferenceDataSetNewPin(old: Swift.String, new: Swift.String, affectedPassword: HealthCardControl.ChangeReferenceDataAffectedPassword) -> Combine.AnyPublisher<HealthCardControl.ChangeReferenceDataResponse, Swift.Error>
+}
+public enum AutCertInfo {
+  case efAutR2048
+  case efAutE256
+  public var eSign: HealthCardAccess.ApplicationIdentifier {
+    get
+  }
+  public var certificate: HealthCardAccess.DedicatedFile {
+    get
+  }
+  public var algorithm: HealthCardAccess.PSOAlgorithm {
+    get
+  }
+  public var key: HealthCardAccess.Key {
+    get
+  }
+  public static func == (a: HealthCardControl.AutCertInfo, b: HealthCardControl.AutCertInfo) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public typealias AutCertificateResponse = (info: HealthCardControl.AutCertInfo, certificate: Foundation.Data)
+extension HealthCardAccess.HealthCardType {
+  public func readAutCertificate() -> Combine.AnyPublisher<HealthCardControl.AutCertificateResponse, Swift.Error>
+}
+extension HealthCardAccess.HealthCardPropertyType {
+  public var autCertInfo: HealthCardControl.AutCertInfo? {
+    get
+  }
+}
+extension HealthCardControl.AutCertInfo {
+  public var signatureHashMethod: (Foundation.Data) -> Foundation.Data {
+    get
+  }
+}
+extension HealthCardAccess.HealthCardType {
+  public func sign(data: Foundation.Data, hasher: @escaping (Foundation.Data, HealthCardControl.AutCertInfo) -> Foundation.Data = { data, cert in cert.signatureHashMethod(data) }) -> Combine.AnyPublisher<HealthCardAccess.HealthCardResponseType, Swift.Error>
+}
+public enum ReadError : Swift.Error, Swift.Equatable {
+  case unexpectedResponse(state: HealthCardAccess.ResponseStatus)
+  case noData(state: HealthCardAccess.ResponseStatus)
+  case fcpMissingReadSize(state: HealthCardAccess.ResponseStatus)
+  public static func == (a: HealthCardControl.ReadError, b: HealthCardControl.ReadError) -> Swift.Bool
+}
+public enum SelectError : Swift.Error, Swift.Equatable {
+  case failedToSelectAid(HealthCardAccess.ApplicationIdentifier, status: HealthCardAccess.ResponseStatus?)
+  case failedToSelectFid(HealthCardAccess.FileIdentifier, status: HealthCardAccess.ResponseStatus?)
+  public static func == (a: HealthCardControl.SelectError, b: HealthCardControl.SelectError) -> Swift.Bool
+}
+extension HealthCardAccess.HealthCardType {
+  public func readSelectedFile(expected size: Swift.Int?, failOnEndOfFileWarning: Swift.Bool = true, offset: Swift.Int = 0) -> Combine.AnyPublisher<Foundation.Data, Swift.Error>
+  public func selectDedicated(file: HealthCardAccess.DedicatedFile, fcp: Swift.Bool = false, length: Swift.Int = 256) -> Combine.AnyPublisher<(HealthCardAccess.ResponseStatus, HealthCardAccess.FileControlParameter?), Swift.Error>
+}
+@frozen public enum ResetRetryCounterResponse : Swift.Equatable {
+  case success
+  case wrongSecretWarning(retryCount: Swift.Int)
+  case securityStatusNotSatisfied
+  case memoryFailure
+  case commandBlocked
+  case wrongPasswordLength
+  case passwordNotFound
+  case unknownFailure
+  public static func == (a: HealthCardControl.ResetRetryCounterResponse, b: HealthCardControl.ResetRetryCounterResponse) -> Swift.Bool
+}
+public enum ResetRetryCounterAffectedPassword {
+  case mrPinHomeNoDfSpecific
+  public static func == (a: HealthCardControl.ResetRetryCounterAffectedPassword, b: HealthCardControl.ResetRetryCounterAffectedPassword) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension HealthCardAccess.HealthCardType {
+  public func resetRetryCounter(puk: HealthCardAccess.Format2Pin, type: HealthCardAccess.EgkFileSystem.Pin = EgkFileSystem.Pin.mrpinHome, dfSpecific: Swift.Bool = false) -> Combine.AnyPublisher<HealthCardControl.ResetRetryCounterResponse, Swift.Error>
+  public func resetRetryCounter(puk: Swift.String, affectedPassWord: HealthCardControl.ResetRetryCounterAffectedPassword) -> Combine.AnyPublisher<HealthCardControl.ResetRetryCounterResponse, Swift.Error>
+  public func resetRetryCounterAndSetNewPin(puk: HealthCardAccess.Format2Pin, newPin: HealthCardAccess.Format2Pin, type: HealthCardAccess.EgkFileSystem.Pin = EgkFileSystem.Pin.mrpinHome, dfSpecific: Swift.Bool = false) -> Combine.AnyPublisher<HealthCardControl.ResetRetryCounterResponse, Swift.Error>
+  public func resetRetryCounterAndSetNewPin(puk: Swift.String, newPin: Swift.String, affectedPassWord: HealthCardControl.ResetRetryCounterAffectedPassword) -> Combine.AnyPublisher<HealthCardControl.ResetRetryCounterResponse, Swift.Error>
+}
+public enum VerifyPinResponse : Swift.Equatable {
+  case success
+  case wrongSecretWarning(retryCount: Swift.Int)
+  case securityStatusNotSatisfied
+  case memoryFailure
+  case passwordBlocked
+  case passwordNotUsable
+  case passwordNotFound
+  case unknownFailure
+  public static func == (a: HealthCardControl.VerifyPinResponse, b: HealthCardControl.VerifyPinResponse) -> Swift.Bool
+}
+public enum VerifyPinAffectedPassword {
+  case mrPinHomeNoDfSpecific
+  public static func == (a: HealthCardControl.VerifyPinAffectedPassword, b: HealthCardControl.VerifyPinAffectedPassword) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension HealthCardAccess.HealthCardType {
+  public func verify(pin: HealthCardAccess.Format2Pin, type: HealthCardAccess.EgkFileSystem.Pin, dfSpecific: Swift.Bool = false) -> Combine.AnyPublisher<HealthCardControl.VerifyPinResponse, Swift.Error>
+  public func verify(pin: Swift.String, affectedPassword: HealthCardControl.VerifyPinAffectedPassword) -> Combine.AnyPublisher<HealthCardControl.VerifyPinResponse, Swift.Error>
+}
+public enum KeyAgreement {
+  public enum Error : Swift.Error, Swift.Equatable {
+    case illegalArgument
+    case unexpectedFormedAnswerFromCard
+    case resultOfEcArithmeticWasInfinite
+    case macPcdVerificationFailedOnCard
+    case macPiccVerificationFailedLocally
+    case noValidHealthCardStatus
+    case efCardAccessNotAvailable
+    case unsupportedKeyAgreementAlgorithm(ASN1Kit.ObjectIdentifier)
+    public static func == (a: HealthCardControl.KeyAgreement.Error, b: HealthCardControl.KeyAgreement.Error) -> Swift.Bool
+  }
+  public enum Algorithm {
+    case idPaceEcdhGmAesCbcCmac128
+    public func negotiateSessionKey(card: HealthCardAccess.HealthCardType, can: HealthCardAccess.CAN, writeTimeout: Foundation.TimeInterval = 10, readTimeout: Foundation.TimeInterval = 10) -> Combine.AnyPublisher<HealthCardControl.SecureMessaging, Swift.Error>
+    public static func == (a: HealthCardControl.KeyAgreement.Algorithm, b: HealthCardControl.KeyAgreement.Algorithm) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public enum KeyDerivationFunction {
+  public enum KeyFuncType {
+    case aes128
+    public static func == (a: HealthCardControl.KeyDerivationFunction.KeyFuncType, b: HealthCardControl.KeyDerivationFunction.KeyFuncType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum Mode {
+    case enc
+    case mac
+    case password
+    public static func == (a: HealthCardControl.KeyDerivationFunction.Mode, b: HealthCardControl.KeyDerivationFunction.Mode) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public static func deriveKey(from sharedSecret: Foundation.Data, funcType: HealthCardControl.KeyDerivationFunction.KeyFuncType = .aes128, mode: HealthCardControl.KeyDerivationFunction.Mode) -> Foundation.Data
+}
+public protocol SecureHealthCardType : HealthCardAccess.HealthCardType {
+}
+public protocol SecureMessaging {
+  func encrypt(command: CardReaderProviderApi.CommandType) throws -> CardReaderProviderApi.CommandType
+  func decrypt(response: CardReaderProviderApi.ResponseType) throws -> CardReaderProviderApi.ResponseType
+  func invalidate()
+}
+extension HealthCardControl.CardAid : Swift.Equatable {}
+extension HealthCardControl.CardAid : Swift.Hashable {}
+extension HealthCardControl.CardAid : Swift.RawRepresentable {}
+extension HealthCardControl.ChangeReferenceDataResponse : Swift.Sendable {}
+extension HealthCardControl.ChangeReferenceDataAffectedPassword : Swift.Equatable {}
+extension HealthCardControl.ChangeReferenceDataAffectedPassword : Swift.Hashable {}
+extension HealthCardControl.AutCertInfo : Swift.Equatable {}
+extension HealthCardControl.AutCertInfo : Swift.Hashable {}
+extension HealthCardControl.ResetRetryCounterResponse : Swift.Sendable {}
+extension HealthCardControl.ResetRetryCounterAffectedPassword : Swift.Equatable {}
+extension HealthCardControl.ResetRetryCounterAffectedPassword : Swift.Hashable {}
+extension HealthCardControl.VerifyPinAffectedPassword : Swift.Equatable {}
+extension HealthCardControl.VerifyPinAffectedPassword : Swift.Hashable {}
+extension HealthCardControl.KeyAgreement.Algorithm : Swift.Equatable {}
+extension HealthCardControl.KeyAgreement.Algorithm : Swift.Hashable {}
+extension HealthCardControl.KeyDerivationFunction.KeyFuncType : Swift.Equatable {}
+extension HealthCardControl.KeyDerivationFunction.KeyFuncType : Swift.Hashable {}
+extension HealthCardControl.KeyDerivationFunction.Mode : Swift.Equatable {}
+extension HealthCardControl.KeyDerivationFunction.Mode : Swift.Hashable {}

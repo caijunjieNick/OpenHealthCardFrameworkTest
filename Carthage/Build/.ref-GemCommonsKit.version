@@ -1,0 +1,52 @@
+{
+  "Mac" : [
+    {
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
+      "hash" : "0d3e3bea0d050b4947d85c91795e15830b134495519763c0322be3e69077d4e5",
+      "name" : "GemCommonsKit",
+      "container" : "GemCommonsKit.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "hash" : "53d5c244035816fef70bcc12fd63a830d5347c1784c11ab80b5626eea3cea0d0",
+      "name" : "ObjCCommonsKit",
+      "container" : "ObjCCommonsKit.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.3.0",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
+      "hash" : "d7712facdc93382fb1083bba11773094f81c199732354b50211349bff0876461",
+      "name" : "GemCommonsKit",
+      "container" : "GemCommonsKit.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
+      "hash" : "8912d7ddce6fc012f864881b8d64f6decd2efa1a53e715f23dcc18affcde82b7",
+      "name" : "GemCommonsKit",
+      "container" : "GemCommonsKit.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "b27002f4d2a5b29088ebd1e1fb8e3cf4503835139514c93aff9cfe9e2c7c2e64",
+      "name" : "ObjCCommonsKit",
+      "container" : "ObjCCommonsKit.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "c6048cfef3ffdb5882196b298b2083920ba5690a4120500434c81ce6140224e8",
+      "name" : "ObjCCommonsKit",
+      "container" : "ObjCCommonsKit.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    }
+  ]
+}

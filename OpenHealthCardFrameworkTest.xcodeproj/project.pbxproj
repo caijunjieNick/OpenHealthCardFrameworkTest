@@ -11,7 +11,53 @@
 		C77E77102AC41E4F005B0001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77E770F2AC41E4F005B0001 /* ContentView.swift */; };
 		C77E77122AC41E51005B0001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77E77112AC41E51005B0001 /* Assets.xcassets */; };
 		C77E77152AC41E51005B0001 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77E77142AC41E51005B0001 /* Preview Assets.xcassets */; };
+		C77E77242AC42138005B0001 /* Helper.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77E771C2AC42138005B0001 /* Helper.xcframework */; };
+		C77E77252AC42138005B0001 /* Helper.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C77E771C2AC42138005B0001 /* Helper.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C77E77262AC42138005B0001 /* ASN1Kit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77E771D2AC42138005B0001 /* ASN1Kit.xcframework */; };
+		C77E77272AC42139005B0001 /* ASN1Kit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C77E771D2AC42138005B0001 /* ASN1Kit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C77E77282AC42139005B0001 /* HealthCardControl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77E771E2AC42138005B0001 /* HealthCardControl.xcframework */; };
+		C77E77292AC42139005B0001 /* HealthCardControl.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C77E771E2AC42138005B0001 /* HealthCardControl.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C77E772A2AC42139005B0001 /* CardReaderAccess.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77E771F2AC42138005B0001 /* CardReaderAccess.xcframework */; };
+		C77E772B2AC42139005B0001 /* CardReaderAccess.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C77E771F2AC42138005B0001 /* CardReaderAccess.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C77E772C2AC42139005B0001 /* DataKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77E77202AC42138005B0001 /* DataKit.xcframework */; };
+		C77E772D2AC42139005B0001 /* DataKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C77E77202AC42138005B0001 /* DataKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C77E772E2AC42139005B0001 /* CardReaderProviderApi.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77E77212AC42138005B0001 /* CardReaderProviderApi.xcframework */; };
+		C77E772F2AC42139005B0001 /* CardReaderProviderApi.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C77E77212AC42138005B0001 /* CardReaderProviderApi.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C77E77302AC42139005B0001 /* HealthCardAccess.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77E77222AC42138005B0001 /* HealthCardAccess.xcframework */; };
+		C77E77312AC42139005B0001 /* HealthCardAccess.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C77E77222AC42138005B0001 /* HealthCardAccess.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C77E77322AC42139005B0001 /* GemCommonsKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77E77232AC42138005B0001 /* GemCommonsKit.xcframework */; };
+		C77E77332AC42139005B0001 /* GemCommonsKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C77E77232AC42138005B0001 /* GemCommonsKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C77E77382AC4213D005B0001 /* NFCCardReaderProvider.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77E77352AC4213D005B0001 /* NFCCardReaderProvider.xcframework */; };
+		C77E77392AC4213D005B0001 /* NFCCardReaderProvider.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C77E77352AC4213D005B0001 /* NFCCardReaderProvider.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C77E773A2AC4213D005B0001 /* ObjCCommonsKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77E77362AC4213D005B0001 /* ObjCCommonsKit.xcframework */; };
+		C77E773B2AC4213D005B0001 /* ObjCCommonsKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C77E77362AC4213D005B0001 /* ObjCCommonsKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C77E773C2AC4213D005B0001 /* OpenSSL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77E77372AC4213D005B0001 /* OpenSSL.xcframework */; };
+		C77E773D2AC4213D005B0001 /* OpenSSL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C77E77372AC4213D005B0001 /* OpenSSL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C77E77342AC42139005B0001 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C77E772F2AC42139005B0001 /* CardReaderProviderApi.xcframework in Embed Frameworks */,
+				C77E772D2AC42139005B0001 /* DataKit.xcframework in Embed Frameworks */,
+				C77E77252AC42138005B0001 /* Helper.xcframework in Embed Frameworks */,
+				C77E773B2AC4213D005B0001 /* ObjCCommonsKit.xcframework in Embed Frameworks */,
+				C77E77292AC42139005B0001 /* HealthCardControl.xcframework in Embed Frameworks */,
+				C77E773D2AC4213D005B0001 /* OpenSSL.xcframework in Embed Frameworks */,
+				C77E772B2AC42139005B0001 /* CardReaderAccess.xcframework in Embed Frameworks */,
+				C77E77332AC42139005B0001 /* GemCommonsKit.xcframework in Embed Frameworks */,
+				C77E77312AC42139005B0001 /* HealthCardAccess.xcframework in Embed Frameworks */,
+				C77E77272AC42139005B0001 /* ASN1Kit.xcframework in Embed Frameworks */,
+				C77E77392AC4213D005B0001 /* NFCCardReaderProvider.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C77E770A2AC41E4F005B0001 /* OpenHealthCardFrameworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenHealthCardFrameworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +65,17 @@
 		C77E770F2AC41E4F005B0001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C77E77112AC41E51005B0001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C77E77142AC41E51005B0001 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C77E771C2AC42138005B0001 /* Helper.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Helper.xcframework; path = Carthage/Build/Helper.xcframework; sourceTree = "<group>"; };
+		C77E771D2AC42138005B0001 /* ASN1Kit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ASN1Kit.xcframework; path = Carthage/Build/ASN1Kit.xcframework; sourceTree = "<group>"; };
+		C77E771E2AC42138005B0001 /* HealthCardControl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HealthCardControl.xcframework; path = Carthage/Build/HealthCardControl.xcframework; sourceTree = "<group>"; };
+		C77E771F2AC42138005B0001 /* CardReaderAccess.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CardReaderAccess.xcframework; path = Carthage/Build/CardReaderAccess.xcframework; sourceTree = "<group>"; };
+		C77E77202AC42138005B0001 /* DataKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DataKit.xcframework; path = Carthage/Build/DataKit.xcframework; sourceTree = "<group>"; };
+		C77E77212AC42138005B0001 /* CardReaderProviderApi.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CardReaderProviderApi.xcframework; path = Carthage/Build/CardReaderProviderApi.xcframework; sourceTree = "<group>"; };
+		C77E77222AC42138005B0001 /* HealthCardAccess.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HealthCardAccess.xcframework; path = Carthage/Build/HealthCardAccess.xcframework; sourceTree = "<group>"; };
+		C77E77232AC42138005B0001 /* GemCommonsKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GemCommonsKit.xcframework; path = Carthage/Build/GemCommonsKit.xcframework; sourceTree = "<group>"; };
+		C77E77352AC4213D005B0001 /* NFCCardReaderProvider.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NFCCardReaderProvider.xcframework; path = Carthage/Build/NFCCardReaderProvider.xcframework; sourceTree = "<group>"; };
+		C77E77362AC4213D005B0001 /* ObjCCommonsKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ObjCCommonsKit.xcframework; path = Carthage/Build/ObjCCommonsKit.xcframework; sourceTree = "<group>"; };
+		C77E77372AC4213D005B0001 /* OpenSSL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OpenSSL.xcframework; path = Carthage/Build/OpenSSL.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +83,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77E772E2AC42139005B0001 /* CardReaderProviderApi.xcframework in Frameworks */,
+				C77E772C2AC42139005B0001 /* DataKit.xcframework in Frameworks */,
+				C77E77242AC42138005B0001 /* Helper.xcframework in Frameworks */,
+				C77E773A2AC4213D005B0001 /* ObjCCommonsKit.xcframework in Frameworks */,
+				C77E77282AC42139005B0001 /* HealthCardControl.xcframework in Frameworks */,
+				C77E773C2AC4213D005B0001 /* OpenSSL.xcframework in Frameworks */,
+				C77E772A2AC42139005B0001 /* CardReaderAccess.xcframework in Frameworks */,
+				C77E77322AC42139005B0001 /* GemCommonsKit.xcframework in Frameworks */,
+				C77E77302AC42139005B0001 /* HealthCardAccess.xcframework in Frameworks */,
+				C77E77262AC42138005B0001 /* ASN1Kit.xcframework in Frameworks */,
+				C77E77382AC4213D005B0001 /* NFCCardReaderProvider.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +105,7 @@
 			children = (
 				C77E770C2AC41E4F005B0001 /* OpenHealthCardFrameworkTest */,
 				C77E770B2AC41E4F005B0001 /* Products */,
+				C77E771B2AC42138005B0001 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +136,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C77E771B2AC42138005B0001 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C77E77352AC4213D005B0001 /* NFCCardReaderProvider.xcframework */,
+				C77E77362AC4213D005B0001 /* ObjCCommonsKit.xcframework */,
+				C77E77372AC4213D005B0001 /* OpenSSL.xcframework */,
+				C77E771D2AC42138005B0001 /* ASN1Kit.xcframework */,
+				C77E771F2AC42138005B0001 /* CardReaderAccess.xcframework */,
+				C77E77212AC42138005B0001 /* CardReaderProviderApi.xcframework */,
+				C77E77202AC42138005B0001 /* DataKit.xcframework */,
+				C77E77232AC42138005B0001 /* GemCommonsKit.xcframework */,
+				C77E77222AC42138005B0001 /* HealthCardAccess.xcframework */,
+				C77E771E2AC42138005B0001 /* HealthCardControl.xcframework */,
+				C77E771C2AC42138005B0001 /* Helper.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +164,7 @@
 				C77E77062AC41E4F005B0001 /* Sources */,
 				C77E77072AC41E4F005B0001 /* Frameworks */,
 				C77E77082AC41E4F005B0001 /* Resources */,
+				C77E77342AC42139005B0001 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

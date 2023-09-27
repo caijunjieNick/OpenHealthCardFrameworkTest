@@ -1,0 +1,3375 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Base64",
+        "printedName": "Base64",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "standard",
+            "printedName": "standard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DataKit.Base64.Type) -> DataKit.Base64",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Base64",
+                    "printedName": "DataKit.Base64",
+                    "usr": "s:7DataKit6Base64O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DataKit.Base64.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Base64",
+                        "printedName": "DataKit.Base64",
+                        "usr": "s:7DataKit6Base64O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7DataKit6Base64O8standardyA2CmF",
+            "mangledName": "$s7DataKit6Base64O8standardyA2CmF",
+            "moduleName": "DataKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlSafe",
+            "printedName": "urlSafe",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DataKit.Base64.Type) -> DataKit.Base64",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Base64",
+                    "printedName": "DataKit.Base64",
+                    "usr": "s:7DataKit6Base64O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DataKit.Base64.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Base64",
+                        "printedName": "DataKit.Base64",
+                        "usr": "s:7DataKit6Base64O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7DataKit6Base64O7urlSafeyA2CmF",
+            "mangledName": "$s7DataKit6Base64O7urlSafeyA2CmF",
+            "moduleName": "DataKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Mode",
+            "printedName": "Mode",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "failOnInvalidCharacters",
+                "printedName": "failOnInvalidCharacters",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DataKit.Base64.Mode.Type) -> DataKit.Base64.Mode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Mode",
+                        "printedName": "DataKit.Base64.Mode",
+                        "usr": "s:7DataKit6Base64O4ModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DataKit.Base64.Mode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Mode",
+                            "printedName": "DataKit.Base64.Mode",
+                            "usr": "s:7DataKit6Base64O4ModeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7DataKit6Base64O4ModeO23failOnInvalidCharactersyA2EmF",
+                "mangledName": "$s7DataKit6Base64O4ModeO23failOnInvalidCharactersyA2EmF",
+                "moduleName": "DataKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "ignoreWhiteSpaceAndNewline",
+                "printedName": "ignoreWhiteSpaceAndNewline",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DataKit.Base64.Mode.Type) -> DataKit.Base64.Mode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Mode",
+                        "printedName": "DataKit.Base64.Mode",
+                        "usr": "s:7DataKit6Base64O4ModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DataKit.Base64.Mode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Mode",
+                            "printedName": "DataKit.Base64.Mode",
+                            "usr": "s:7DataKit6Base64O4ModeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7DataKit6Base64O4ModeO26ignoreWhiteSpaceAndNewlineyA2EmF",
+                "mangledName": "$s7DataKit6Base64O4ModeO26ignoreWhiteSpaceAndNewlineyA2EmF",
+                "moduleName": "DataKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "ignoreInvalidCharacters",
+                "printedName": "ignoreInvalidCharacters",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DataKit.Base64.Mode.Type) -> DataKit.Base64.Mode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Mode",
+                        "printedName": "DataKit.Base64.Mode",
+                        "usr": "s:7DataKit6Base64O4ModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DataKit.Base64.Mode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Mode",
+                            "printedName": "DataKit.Base64.Mode",
+                            "usr": "s:7DataKit6Base64O4ModeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7DataKit6Base64O4ModeO23ignoreInvalidCharactersyA2EmF",
+                "mangledName": "$s7DataKit6Base64O4ModeO23ignoreInvalidCharactersyA2EmF",
+                "moduleName": "DataKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "decodedLength",
+                "printedName": "decodedLength(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7DataKit6Base64O4ModeO13decodedLengthySi10Foundation0A0VF",
+                "mangledName": "$s7DataKit6Base64O4ModeO13decodedLengthySi10Foundation0A0VF",
+                "moduleName": "DataKit",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mode",
+                    "printedName": "DataKit.Base64.Mode",
+                    "usr": "s:7DataKit6Base64O4ModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mode",
+                    "printedName": "DataKit.Base64.Mode",
+                    "usr": "s:7DataKit6Base64O4ModeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7DataKit6Base64O4ModeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s7DataKit6Base64O4ModeO2eeoiySbAE_AEtFZ",
+                "moduleName": "DataKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7DataKit6Base64O4ModeO9hashValueSivp",
+                "mangledName": "$s7DataKit6Base64O4ModeO9hashValueSivp",
+                "moduleName": "DataKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7DataKit6Base64O4ModeO9hashValueSivg",
+                    "mangledName": "$s7DataKit6Base64O4ModeO9hashValueSivg",
+                    "moduleName": "DataKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7DataKit6Base64O4ModeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s7DataKit6Base64O4ModeO4hash4intoys6HasherVz_tF",
+                "moduleName": "DataKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:7DataKit6Base64O4ModeO",
+            "mangledName": "$s7DataKit6Base64O4ModeO",
+            "moduleName": "DataKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Padding",
+            "printedName": "Padding",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "none",
+                "printedName": "none",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DataKit.Base64.Padding.Type) -> DataKit.Base64.Padding",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Padding",
+                        "printedName": "DataKit.Base64.Padding",
+                        "usr": "s:7DataKit6Base64O7PaddingO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DataKit.Base64.Padding.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Padding",
+                            "printedName": "DataKit.Base64.Padding",
+                            "usr": "s:7DataKit6Base64O7PaddingO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7DataKit6Base64O7PaddingO4noneyA2EmF",
+                "mangledName": "$s7DataKit6Base64O7PaddingO4noneyA2EmF",
+                "moduleName": "DataKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "padding",
+                "printedName": "padding",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DataKit.Base64.Padding.Type) -> DataKit.Base64.Padding",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Padding",
+                        "printedName": "DataKit.Base64.Padding",
+                        "usr": "s:7DataKit6Base64O7PaddingO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DataKit.Base64.Padding.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Padding",
+                            "printedName": "DataKit.Base64.Padding",
+                            "usr": "s:7DataKit6Base64O7PaddingO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7DataKit6Base64O7PaddingO7paddingyA2EmF",
+                "mangledName": "$s7DataKit6Base64O7PaddingO7paddingyA2EmF",
+                "moduleName": "DataKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "encodedLength",
+                "printedName": "encodedLength(_:lineFeeds:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "hasDefaultArg": true,
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7DataKit6Base64O7PaddingO13encodedLength_9lineFeedsSi10Foundation0A0V_SitF",
+                "mangledName": "$s7DataKit6Base64O7PaddingO13encodedLength_9lineFeedsSi10Foundation0A0V_SitF",
+                "moduleName": "DataKit",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Padding",
+                    "printedName": "DataKit.Base64.Padding",
+                    "usr": "s:7DataKit6Base64O7PaddingO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Padding",
+                    "printedName": "DataKit.Base64.Padding",
+                    "usr": "s:7DataKit6Base64O7PaddingO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7DataKit6Base64O7PaddingO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s7DataKit6Base64O7PaddingO2eeoiySbAE_AEtFZ",
+                "moduleName": "DataKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7DataKit6Base64O7PaddingO9hashValueSivp",
+                "mangledName": "$s7DataKit6Base64O7PaddingO9hashValueSivp",
+                "moduleName": "DataKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7DataKit6Base64O7PaddingO9hashValueSivg",
+                    "mangledName": "$s7DataKit6Base64O7PaddingO9hashValueSivg",
+                    "moduleName": "DataKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7DataKit6Base64O7PaddingO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s7DataKit6Base64O7PaddingO4hash4intoys6HasherVz_tF",
+                "moduleName": "DataKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:7DataKit6Base64O7PaddingO",
+            "mangledName": "$s7DataKit6Base64O7PaddingO",
+            "moduleName": "DataKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Error",
+            "printedName": "Error",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "invalidBase64String",
+                "printedName": "invalidBase64String",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DataKit.Base64.Error.Type) -> DataKit.Base64.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "DataKit.Base64.Error",
+                        "usr": "s:7DataKit6Base64O5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DataKit.Base64.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "DataKit.Base64.Error",
+                            "usr": "s:7DataKit6Base64O5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7DataKit6Base64O5ErrorO07invalidC6StringyA2EmF",
+                "mangledName": "$s7DataKit6Base64O5ErrorO07invalidC6StringyA2EmF",
+                "moduleName": "DataKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "DataKit.Base64.Error",
+                    "usr": "s:7DataKit6Base64O5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "DataKit.Base64.Error",
+                    "usr": "s:7DataKit6Base64O5ErrorO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7DataKit6Base64O5ErrorO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s7DataKit6Base64O5ErrorO2eeoiySbAE_AEtFZ",
+                "moduleName": "DataKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7DataKit6Base64O5ErrorO9hashValueSivp",
+                "mangledName": "$s7DataKit6Base64O5ErrorO9hashValueSivp",
+                "moduleName": "DataKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7DataKit6Base64O5ErrorO9hashValueSivg",
+                    "mangledName": "$s7DataKit6Base64O5ErrorO9hashValueSivg",
+                    "moduleName": "DataKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7DataKit6Base64O5ErrorO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s7DataKit6Base64O5ErrorO4hash4intoys6HasherVz_tF",
+                "moduleName": "DataKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:7DataKit6Base64O5ErrorO",
+            "mangledName": "$s7DataKit6Base64O5ErrorO",
+            "moduleName": "DataKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(data:with:lineFeeds:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Padding",
+                "printedName": "DataKit.Base64.Padding",
+                "hasDefaultArg": true,
+                "usr": "s:7DataKit6Base64O7PaddingO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7DataKit6Base64O6encode4data4with9lineFeeds10Foundation0A0VAJ_AC7PaddingOSitF",
+            "mangledName": "$s7DataKit6Base64O6encode4data4with9lineFeeds10Foundation0A0VAJ_AC7PaddingOSitF",
+            "moduleName": "DataKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(string:mode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Mode",
+                "printedName": "DataKit.Base64.Mode",
+                "hasDefaultArg": true,
+                "usr": "s:7DataKit6Base64O4ModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7DataKit6Base64O6decode6string4mode10Foundation0A0VSS_AC4ModeOtKFZ",
+            "mangledName": "$s7DataKit6Base64O6decode6string4mode10Foundation0A0VSS_AC4ModeOtKFZ",
+            "moduleName": "DataKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(data:mode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Mode",
+                "printedName": "DataKit.Base64.Mode",
+                "hasDefaultArg": true,
+                "usr": "s:7DataKit6Base64O4ModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7DataKit6Base64O6decode4data4mode10Foundation0A0VAI_AC4ModeOtKFZ",
+            "mangledName": "$s7DataKit6Base64O6decode4data4mode10Foundation0A0VAI_AC4ModeOtKFZ",
+            "moduleName": "DataKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Base64",
+                "printedName": "DataKit.Base64",
+                "usr": "s:7DataKit6Base64O"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Base64",
+                "printedName": "DataKit.Base64",
+                "usr": "s:7DataKit6Base64O"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7DataKit6Base64O2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7DataKit6Base64O2eeoiySbAC_ACtFZ",
+            "moduleName": "DataKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7DataKit6Base64O9hashValueSivp",
+            "mangledName": "$s7DataKit6Base64O9hashValueSivp",
+            "moduleName": "DataKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7DataKit6Base64O9hashValueSivg",
+                "mangledName": "$s7DataKit6Base64O9hashValueSivg",
+                "moduleName": "DataKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7DataKit6Base64O4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7DataKit6Base64O4hash4intoys6HasherVz_tF",
+            "moduleName": "DataKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7DataKit6Base64O",
+        "mangledName": "$s7DataKit6Base64O",
+        "moduleName": "DataKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HexStringParsingError",
+        "printedName": "HexStringParsingError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "illegalCharacters",
+            "printedName": "illegalCharacters",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DataKit.HexStringParsingError.Type) -> (Swift.String, Swift.Int, Swift.String) -> DataKit.HexStringParsingError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.Int, Swift.String) -> DataKit.HexStringParsingError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HexStringParsingError",
+                        "printedName": "DataKit.HexStringParsingError",
+                        "usr": "s:7DataKit21HexStringParsingErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(pattern: Swift.String, index: Swift.Int, literal: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DataKit.HexStringParsingError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HexStringParsingError",
+                        "printedName": "DataKit.HexStringParsingError",
+                        "usr": "s:7DataKit21HexStringParsingErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7DataKit21HexStringParsingErrorO17illegalCharactersyACSS_SiSStcACmF",
+            "mangledName": "$s7DataKit21HexStringParsingErrorO17illegalCharactersyACSS_SiSStcACmF",
+            "moduleName": "DataKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidLength",
+            "printedName": "invalidLength",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DataKit.HexStringParsingError.Type) -> (Swift.Int) -> DataKit.HexStringParsingError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> DataKit.HexStringParsingError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HexStringParsingError",
+                        "printedName": "DataKit.HexStringParsingError",
+                        "usr": "s:7DataKit21HexStringParsingErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DataKit.HexStringParsingError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HexStringParsingError",
+                        "printedName": "DataKit.HexStringParsingError",
+                        "usr": "s:7DataKit21HexStringParsingErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7DataKit21HexStringParsingErrorO13invalidLengthyACSicACmF",
+            "mangledName": "$s7DataKit21HexStringParsingErrorO13invalidLengthyACSicACmF",
+            "moduleName": "DataKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unknownError",
+            "printedName": "unknownError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DataKit.HexStringParsingError.Type) -> DataKit.HexStringParsingError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HexStringParsingError",
+                    "printedName": "DataKit.HexStringParsingError",
+                    "usr": "s:7DataKit21HexStringParsingErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DataKit.HexStringParsingError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HexStringParsingError",
+                        "printedName": "DataKit.HexStringParsingError",
+                        "usr": "s:7DataKit21HexStringParsingErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7DataKit21HexStringParsingErrorO07unknownF0yA2CmF",
+            "mangledName": "$s7DataKit21HexStringParsingErrorO07unknownF0yA2CmF",
+            "moduleName": "DataKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HexStringParsingError",
+                "printedName": "DataKit.HexStringParsingError",
+                "usr": "s:7DataKit21HexStringParsingErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HexStringParsingError",
+                "printedName": "DataKit.HexStringParsingError",
+                "usr": "s:7DataKit21HexStringParsingErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7DataKit21HexStringParsingErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7DataKit21HexStringParsingErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "DataKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7DataKit21HexStringParsingErrorO",
+        "mangledName": "$s7DataKit21HexStringParsingErrorO",
+        "moduleName": "DataKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DataKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Array",
+        "printedName": "Array",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sa7DataKits5UInt8VRszlE4data10Foundation0A0Vvp",
+            "mangledName": "$sSa7DataKits5UInt8VRszlE4data10Foundation0A0Vvp",
+            "moduleName": "DataKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sa7DataKits5UInt8VRszlE4data10Foundation0A0Vvg",
+                "mangledName": "$sSa7DataKits5UInt8VRszlE4data10Foundation0A0Vvg",
+                "moduleName": "DataKit",
+                "genericSig": "<τ_0_0 where τ_0_0 == Swift.UInt8>",
+                "sugared_genericSig": "<Element where Element == Swift.UInt8>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Sa",
+        "mangledName": "$sSa",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Element>",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_DestructorSafeContainer",
+            "printedName": "_DestructorSafeContainer",
+            "usr": "s:s24_DestructorSafeContainerP",
+            "mangledName": "$ss24_DestructorSafeContainerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ArrayProtocol",
+            "printedName": "_ArrayProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Buffer",
+                "printedName": "_Buffer",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ArrayBuffer",
+                    "printedName": "Swift._ArrayBuffer<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s12_ArrayBufferV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s14_ArrayProtocolP",
+            "mangledName": "$ss14_ArrayProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSArray",
+                    "printedName": "Foundation.NSArray",
+                    "usr": "c:objc(cs)NSArray"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "EncodableWithConfiguration",
+            "printedName": "EncodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "EncodingConfiguration",
+                "printedName": "EncodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.EncodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26EncodableWithConfigurationP",
+            "mangledName": "$s10Foundation26EncodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DecodableWithConfiguration",
+            "printedName": "DecodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DecodingConfiguration",
+                "printedName": "DecodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.DecodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26DecodableWithConfigurationP",
+            "mangledName": "$s10Foundation26DecodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Data",
+        "printedName": "Data",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "asciiString",
+            "printedName": "asciiString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Foundation4DataV0B3KitE11asciiStringSSSgvp",
+            "mangledName": "$s10Foundation4DataV0B3KitE11asciiStringSSSgvp",
+            "moduleName": "DataKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Foundation4DataV0B3KitE11asciiStringSSSgvg",
+                "mangledName": "$s10Foundation4DataV0B3KitE11asciiStringSSSgvg",
+                "moduleName": "DataKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hexString",
+            "printedName": "hexString(separator:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation4DataV0B3KitE9hexString9separatorS2S_tF",
+            "mangledName": "$s10Foundation4DataV0B3KitE9hexString9separatorS2S_tF",
+            "moduleName": "DataKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10Foundation4DataV0B3KitE3hexACSS_tKcfc",
+            "mangledName": "$s10Foundation4DataV0B3KitE3hexACSS_tKcfc",
+            "moduleName": "DataKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "utf8string",
+            "printedName": "utf8string",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Foundation4DataV0B3KitE10utf8stringSSSgvp",
+            "mangledName": "$s10Foundation4DataV0B3KitE10utf8stringSSSgvp",
+            "moduleName": "DataKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Foundation4DataV0B3KitE10utf8stringSSSgvg",
+                "mangledName": "$s10Foundation4DataV0B3KitE10utf8stringSSSgvg",
+                "moduleName": "DataKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation4DataV",
+        "mangledName": "$s10Foundation4DataV",
+        "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<Foundation.Data>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 67,
+      "value": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+\/=\""
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "StringLiteral",
+      "offset": 467,
+      "length": 67,
+      "value": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=\""
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "Array",
+      "offset": 637,
+      "length": 1226,
+      "value": "[64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 62, 64, 62, 64, 63, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 64, 64, 64, 64, 64, 64, 64, 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 64, 64, 64, 64, 63, 64, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64]"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2540,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2806,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2986,
+      "length": 4,
+      "value": "0x40"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3236,
+      "length": 4,
+      "value": "0x3d"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3282,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3435,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3506,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3517,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3522,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3526,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3530,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3984,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4190,
+      "length": 4,
+      "value": "0x3d"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4928,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4987,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4992,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4997,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5076,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5161,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5202,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5273,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5998,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6544,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6577,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6597,
+      "length": 4,
+      "value": "0x40"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6632,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6652,
+      "length": 4,
+      "value": "0x40"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6952,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7289,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7324,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7442,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7480,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7775,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7785,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8594,
+      "length": 2,
+      "value": "26"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8725,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8888,
+      "length": 4,
+      "value": "0x3f"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8988,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9001,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9046,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9087,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9135,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9259,
+      "length": 3,
+      "value": "0xA"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9542,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9916,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11586,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11758,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11763,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11768,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12739,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12809,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12837,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13046,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13081,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13153,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13190,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13210,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13378,
+      "length": 4,
+      "value": "0x3d"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13435,
+      "length": 4,
+      "value": "0x40"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13542,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13840,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14090,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14146,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14154,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14175,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14183,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14212,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14264,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14320,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14328,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14349,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14357,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14386,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14438,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14494,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14502,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14523,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Base64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14555,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "StringLiteral",
+      "offset": 442,
+      "length": 8,
+      "value": "\"%02hhX\""
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 990,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 995,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1154,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1970,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2082,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2245,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2340,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2350,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2529,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2548,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2691,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2860,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3014,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3067,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akami\/Documents\/OpenHealthCardFrameworkTest\/Carthage\/Checkouts\/DataKit\/Sources\/DataKit\/Data+HexString.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3110,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
